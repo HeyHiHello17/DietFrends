@@ -3,5 +3,10 @@
 
 <mapper namespace="MemberMapper">
 	
+	<!-- 로그인 (아이디로 찾기) -->
+	<select id="login" resultType="Mdto">
+		select * from member where id=#{id}
+	</select>
+	
 
 </mapper>

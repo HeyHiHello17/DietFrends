@@ -1,5 +1,11 @@
 package com.diet.dto;
 
-public class MemberDTO {
+import lombok.Data;
 
+@Data
+public class MemberDTO {
+	String id;
+	String pwd;
+	String nick;
+	String fid;
 }

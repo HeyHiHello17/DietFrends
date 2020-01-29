@@ -129,12 +129,27 @@
 			<version>3.2.3</version>
 		</dependency>
 		
-		<!-- JDBC Template -->
+		 <!-- JDBC Template -->
 		 <dependency>
 		 	<groupId>org.springframework</groupId>
 		 	<artifactId>spring-jdbc</artifactId>
 		 	<version>4.1.4.RELEASE</version>
 		 </dependency>
+		 
+		 <!-- lombok --> 	
+		<dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+            <scope>provided</scope>
+		</dependency>
+		
+		<!--ajax json-->
+      	<dependency>
+         	<groupId>com.fasterxml.jackson.core</groupId>
+        	<artifactId>jackson-databind</artifactId>
+         	<version>2.9.5</version>
+      	</dependency>
 		
 		
 		

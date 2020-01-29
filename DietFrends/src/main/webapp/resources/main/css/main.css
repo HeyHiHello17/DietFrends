@@ -150,7 +150,7 @@ iframe {
   margin: 0 auto;
 }
 
-/*배경*/
+/*諛곌꼍*/
 .container-login100 {
   width: 100%;  
   min-height: 100vh;
@@ -173,7 +173,7 @@ iframe {
 }
 
 
-/*배경 색상*/
+/*諛곌꼍 �깋�긽*/
 /*.container-login100::before {
   content: "";
   display: block;
@@ -374,6 +374,11 @@ iframe {
   z-index: 1;
 }
 
+.login100-form-btn:hover {
+  background: #ffd8d8;
+  color: #fff;
+}
+
 /*.login100-form-btn::before {
   content: "";
   display: block;
@@ -396,14 +401,21 @@ iframe {
   opacity: 0;
 }*/
 
-.login100-form-btn:hover {
-  background: #ffd8d8;
-  color: #fff;
-}
+
 
 /*.login100-form-btn:hover:before {
   opacity: 1;
 }*/
+
+/*체크 문구 div*/
+.checkTitle{
+	color: #ff5757;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight:700;
+	text-align:center;
+	width: 100%;	
+}
+
 
 /*------------------------------------------------------------------
 [ Button sign in with ]*/
@@ -527,6 +539,7 @@ iframe {
     opacity: 1;
   }
 }
+
 
 /*//////////////////////////////////////////////////////////////////
 [ responsive ]*/

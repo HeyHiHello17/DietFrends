@@ -16,6 +16,8 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="resources/main/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 <!--===============================================================================================-->
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+<!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="resources/main/vendor/animate/animate.css">
 <!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="resources/main/vendor/css-hamburgers/hamburgers.min.css">
@@ -27,7 +29,7 @@
 <!--===============================================================================================-->
 
 <!--===============================================================================================-->	
-	<script src="resources/main/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="resources/main/vendor/jquery/jquery-3.4.1.min.js"></script>
 <!--===============================================================================================-->
 	<script src="resources/main/vendor/bootstrap/js/popper.js"></script>
 	<script src="resources/main/vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -51,12 +53,12 @@
 				<form class="login100-form validate-form" id="loginForm">
                     
                     <!--타이틀-->
-					<div class="login100-form-title p-t-20 p-b-20">WELCOME DIET TOGETHER</div>
-                    <div class="login100-form-title2 p-b-40 ">Share your diet together</div>
+					<div class="login100-form-title p-t-20 p-b-20">WELCOME DIETFRENDS</div>
+                    <div class="login100-form-title2 p-b-40 ">Share your diet with your friends</div>
                     
                     <!--아이디-->
 					<div class="wrap-input100 validate-input m-b-10" data-validate = "Username is required">
-						<input class="input100" type="text" id="userid" name="userid" placeholder="Username">
+						<input class="input100" type="text" id="id" name="id" placeholder="Username">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user"></i>
@@ -65,16 +67,20 @@
                     
                     <!--비밀번호-->
 					<div class="wrap-input100 validate-input m-b-10" data-validate = "Password is required">
-						<input class="input100" type="password" id="userpwd" name="userpwd" placeholder="Password">
+						<input class="input100" type="password" id="pwd" name="pwd" placeholder="Password">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock"></i>
 						</span>
 					</div>
-                    
+					
+					<!-- 체크 문구 div -->
+					<div id="checkTitle" class="checkTitle">
+					</div>
+
                     <!--로그인 버튼-->
 					<div class="container-login100-form-btn p-t-10">
-						<button class="login100-form-btn" id="loginButton">
+						<button class="login100-form-btn" id="loginButton" type="button" disabled="true">
 							Login
 						</button>
 					</div>
