@@ -14,15 +14,15 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Controller
-public class MainController {
+public class HomeController {
 	
 	@Autowired
 	private IMemberService mService;
 	
-	//[Main 화면]
+	//[Home 화면]
 	@RequestMapping("/")
 	public String home(){
-		return "Main/main";
+		return "Home/home";
 	}
 	
 	//[로그인 구현]
@@ -35,7 +35,7 @@ public class MainController {
 	    Map<String, Object> map = new HashMap<String, Object>();
 	    
 			if(loginCheck == 1) {
-				map.put("check" , "로그인 성공");
+				map.put("check" , "성공");
 			}else if(loginCheck == 2) {
 				map.put("check" , "비밀번호가 일치하지 않습니다 :P");
 			}else if(loginCheck == 0) {
@@ -44,10 +44,12 @@ public class MainController {
 			
 			ObjectMapper mapper = new com.fasterxml.jackson.databind.ObjectMapper();
 			String logincheck = mapper.writeValueAsString(map);
-
+			
 			return logincheck;
+			
 	}
 	
-	
+
+
 
 }

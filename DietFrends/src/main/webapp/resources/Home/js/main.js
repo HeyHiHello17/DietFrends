@@ -12,7 +12,12 @@ $(document).ready(function(){
     		data:$("#loginForm").serialize(),
 
     		success:function(data){
-    			$("#checkTitle").text(data.check);	
+    			if(data.check == "성공"){
+    				location.href = "main";
+    			}else{
+    				$("#checkTitle").text(data.check);	
+    			}
+    			
     		}//성공
     		,error:function(){
     		}//실패

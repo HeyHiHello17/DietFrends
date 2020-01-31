@@ -4,39 +4,39 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Main 화면</title>
+	<title> Home 화면</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="resources/main/images/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="resources/Home/images/icons/favicon.ico"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="resources/main/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/Home/vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="resources/main/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/Home/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="resources/main/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/Home/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 <!--===============================================================================================-->
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="resources/main/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="resources/Home/vendor/animate/animate.css">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="resources/main/vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/Home/vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="resources/main/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/Home/vendor/select2/select2.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="resources/main/css/util.css">
-	<link rel="stylesheet" type="text/css" href="resources/main/css/main.css">
+	<link rel="stylesheet" type="text/css" href="resources/Home/css/util.css">
+	<link rel="stylesheet" type="text/css" href="resources/Home/css/main.css">
 <!--===============================================================================================-->
 
 <!--===============================================================================================-->	
-	<script src="resources/main/vendor/jquery/jquery-3.4.1.min.js"></script>
+	<script src="resources/Home/vendor/jquery/jquery-3.4.1.min.js"></script>
 <!--===============================================================================================-->
-	<script src="resources/main/vendor/bootstrap/js/popper.js"></script>
-	<script src="resources/main/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="resources/Home/vendor/bootstrap/js/popper.js"></script>
+	<script src="resources/Home/vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-	<script src="resources/main/vendor/select2/select2.min.js"></script>
+	<script src="resources/Home/vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
-	<script src="resources/main/js/main.js"></script>
+	<script src="resources/Home/js/main.js"></script>
 	
 
     
@@ -45,7 +45,7 @@
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('resources/main/images/img-01.jpg');">
+		<div class="container-login100" style="background-image: url('resources/Home/images/img-01.jpg');">
             
             <!--로그인 DIV-->
 			<div class="wrap-login100 p-t-210 p-b-30">
